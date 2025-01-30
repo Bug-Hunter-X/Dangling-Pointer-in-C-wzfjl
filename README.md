@@ -1,0 +1,1 @@
+This repository demonstrates a common error in C programming: dangling pointers. The bug.c file contains code that frees the memory location pointed to by a pointer, but then attempts to access the pointer after it has been freed, leading to undefined behavior. The bugSolution.c file provides a corrected version of the code.
